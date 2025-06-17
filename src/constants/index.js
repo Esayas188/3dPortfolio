@@ -26,6 +26,8 @@ import {
   project3,
   project4,
   project5,
+  project6,
+
 } from "../assets";
 
 export const navLinks = [
@@ -189,6 +191,29 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Build road construction",
+    description:
+      "A WordPress website for a construction company, featuring project galleries, service overviews, client testimonials, and a responsive design to highlight expertise and attract clients.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project6,
+    _link:"https://buildroadconstruction.com/",
+
+    source_code_link: "https://github.com/Esayas188/",
+  },
+  {
     name: "Architectural page",
     description:
       "A professional web platform showcasing innovative architectural designs, offering detailed project portfolios, and providing information on services and customized solutions to bring your vision to life.",
@@ -224,7 +249,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
@@ -247,7 +272,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
@@ -303,6 +328,7 @@ const projects = [
 
     source_code_link: "https://github.com/Esayas188/SamuelFasil_website",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
